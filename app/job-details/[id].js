@@ -95,7 +95,7 @@ export default function JobDetails() {
           {isLoading ? (
             <ActivityIndicator size="large" color={COLORS.primary} />
           ) : error ? (
-            <Text>Something went wrong</Text>
+            <Text> Opps! Something went wrong</Text>
           ) : data.length === 0 ? (
             <Text>No data</Text>
           ) : (
